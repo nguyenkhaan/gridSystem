@@ -13,9 +13,17 @@
     margin-right: -4px; 
     margin-left: -4px;
 }
+.row.no-gutters {
+    margin-left: 0; 
+    margin-right: 0;
+}
 .col {
     padding-right: 4px; 
     padding-left: 4px; 
+}
+.row.no-gutters .col {
+    padding-left: 0; 
+    padding-right: 0;
 }
 .s0 {
     display: none; 
