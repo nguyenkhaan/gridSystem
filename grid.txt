@@ -22,9 +22,16 @@ B. TẠO ĐỐI TƯỢNG ROW
 C. Column 
 - Chứa các đối tượng trên website 
 - Công thức xác định số cột 
-** Số cốt = 12 / item 
+** Số cột = 12 / item 
 ** Chiều rộng = (100 / 12) * số cột = 100 / item %
 4. Kiến thức về Grid Offset 
 - Ta sẽ tiến hành viết các class để đặt vị trí cho column hiệu quả. 
 Vd: s-o-3: Cho phần tử bắt đầu đứng tại cột thứ 3 
 l-o-6: Cho phần tư đứng từ cột thứ 6 
+TÍNH NĂNG THƯ VIỆN GRID 
+1. Tự động căn giữa 
+- Các thành phần được tạo trong .grid sẽ được căn giữa 
+2. Tùy chỉnh layout 
+- Giúp chỉnh số cột trên một dòng tương thích với từng loại màn hình khi thêm các class col phù hợp 
+3. Tùy chỉnh vị trí 
+- Giúp cho các cột có thể tự do xuất hiện ở nhiều offset khác nhau 

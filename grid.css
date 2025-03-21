@@ -221,7 +221,7 @@
     }
 }
 /* > PC */ 
-@media only screen and (min-width: 1024px) and (max-width: 1239px) {
+@media only screen and (min-width: 1024px) and (max-width: 1800px) {
     .grid {
         width: 984px; 
     }
