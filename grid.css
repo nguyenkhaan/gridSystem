@@ -1,5 +1,8 @@
 * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
+}
+:root {
+    --gutter: -5px; 
 }
 .grid {
     width: 100%; 
@@ -10,20 +13,33 @@
 .row {
     display: flex; 
     flex-wrap: wrap; 
-    margin-right: -4px; 
-    margin-left: -4px;
+    margin-right: 8px;  
+    margin-left: 8px; 
+    width: 100%; 
+}
+
+.gutter {
+    align-items: center;
+    justify-content: center;
+}
+.gutter .col {
+    margin-left: var(--gutter); 
+    margin-right: var(--gutter); 
 }
 .row.no-gutters {
-    margin-left: 0; 
-    margin-right: 0;
+    margin-left: 0px;
+    margin-right: 0px; 
 }
 .col {
-    padding-right: 4px; 
-    padding-left: 4px; 
+    flex: 1 1 auto;
+    margin: 0; 
+    padding: 0; 
+    padding-right: -6px; 
+    padding-left: -6px; 
 }
 .row.no-gutters .col {
-    padding-left: 0; 
-    padding-right: 0;
+    padding-left: 2px; 
+    padding-right: 2px;
 }
 .s0 {
     display: none; 
