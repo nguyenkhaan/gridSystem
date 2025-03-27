@@ -2,14 +2,17 @@
     box-sizing: border-box;
 }
 :root {
-    --gutter: -5px; 
-}
+    --gutter: -6px; 
+} 
 .grid {
     width: 100%; 
+    display: block; 
+    padding: 0; 
+} 
+.grid.wide {   /*Them class wide se lam cho no chieu rong 1200px*/ 
     max-width: 1200px; /*Chieu rong la 100% nhung k bao h duoc vuot qua 1200px */ 
     margin: 0 auto; 
-    display: block; 
-} 
+}
 .row {
     display: flex; 
     flex-wrap: wrap; 
@@ -92,7 +95,10 @@
     flex: 0 0 100%; 
     max-width: 100%; 
 }
-
+.s24 {
+    flex: 0 0 20%; 
+    max-width: 20%;
+}
 .s-o-1 { 
     margin-left: 8.333333%; 
 } 
@@ -191,7 +197,10 @@
         flex: 0 0 100%; 
         max-width: 100%; 
     }
-
+    .m24 {
+        flex: 0 0 20%; 
+        max-width: 20%;
+    }
     .m-o-1 { 
         margin-left: 8.333333%; 
     } 
@@ -300,7 +309,10 @@
         flex: 0 0 100%; 
         max-width: 100%; 
     }
-
+    .l24 {  /*Chiem 5item */ 
+        flex: 0 0 20%; 
+        max-width: 20%;
+    }
     .l-o-1 { 
         margin-left: 8.333333%; 
     } 

@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%; 
+}
+.app {
+
+}
+.sidebar {
+
+}
+.sidebar__heading {
+
+}
+.content {
+    padding-right: 18px;
+}
+.item {
+    background-color: orange; 
+    text-align: center;
+    min-height: 180px;
+    line-height: 180px; 
+    font-size: 2rem;  
+    margin: 6px 0; 
+}
